@@ -1,0 +1,9 @@
+.c-wrapper{
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+.c-container>img{
+    padding-left: 100px;
+    width: 15rem;
+
+}

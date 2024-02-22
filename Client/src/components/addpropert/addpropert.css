@@ -1,0 +1,18 @@
+/* Add this CSS to your stylesheets */
+.mantine-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color: white; /* Set background color */
+    border-radius: 8px; /* Adjust border radius as needed */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .mantine-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 999; /* Ensure overlay is behind modal */
+  }
+  

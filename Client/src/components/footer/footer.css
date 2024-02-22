@@ -1,0 +1,21 @@
+.f-container{
+    justify-content: space-between;
+    border-top: .5px solid black;
+
+}
+.f-left{
+    gap: 1rem;
+    margin-left: 20px;
+
+}
+.f-right{
+    margin-right: 20px;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+.f-menu>span{
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+/* Modal Overlay */
+.mantine-modal {
+  background-color: white;/* semi-transparent black */
+  position: fixed;
+  margin-top: 20%;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 40%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: white;
+  max-width: 80%;
+  width: 400px;
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  }
+  
+  .mantine-modal .mantine-modal.close {
+    /* Add custom styles to adjust the close button appearance */
+    font-size: 5px; /* Adjust font size */
+    color: red; /* Change color */
+  }
+  
+  

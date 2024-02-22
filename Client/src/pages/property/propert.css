@@ -1,0 +1,45 @@
+.property-container{
+  gap: 2rem;
+  position: relative;
+}
+
+.property-container .like{
+    position: relative;
+    top: 6rem;
+    left: 86%;
+    cursor: pointer;
+
+}
+.property-container>img{
+    align-self: center;
+    max-height: 35rem;
+    width: 80%;
+    border-radius:10px ;
+}
+.property-details{
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.property-details>div{
+    flex: 1;
+    gap: 1.5rem;
+}
+.property-details .left .head{
+    justify-content: space-evenly;
+    width: 100%;
+}
+.facilities{
+    gap: 0.5rem;
+    font-size: .9rem;
+    padding: 1rem;
+}
+
+.facility{
+    gap: 0.5rem;
+
+}
+.property-details .button{
+    width: 100%;
+}

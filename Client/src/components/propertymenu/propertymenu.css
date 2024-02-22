@@ -1,0 +1,33 @@
+.custom-dropdown {
+  position: relative;
+}
+
+/* Position the dropdown menu */
+.menu-dropdown {
+  position: absolute;
+  top: calc(100% + 5px); /* Adjust as needed */
+  right: 0; /* Adjust as needed */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other content */
+  display: block;
+}
+
+/* Style the menu items */
+.menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Style the menu items on hover */
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+.avatar-menu{
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline;
+}
