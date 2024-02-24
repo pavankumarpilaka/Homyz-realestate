@@ -12,13 +12,7 @@ const PORT=process.env.PORT || 3000;
 
 app.use(express.json())
 app.use(cookieParser())
-// Example of more restrictive CORS configuration
-app.use(cors({
-    origin: 'https://homyz-realestate-clientside.vercel.app',
-    methods: ['GET', 'POST'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-}));
-console.log("hello world");
+app.use(cors())
 app.listen(PORT,()=>{
     console.log("server is running succesfully...");
 })
