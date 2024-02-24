@@ -17,7 +17,7 @@ model user{
     ownedresidences residency[] @relation("Owner")
 }
 
-model residency{
+model residency {
     id String @id @default(auto()) @map("_id") @db.ObjectId
     title String
     description String
@@ -29,9 +29,10 @@ model residency{
     facilities Json
     useremail String
     createdat DateTime @default(now())
-    owner user @relation("Owner",fields: [useremail],references: [email])
-    updatedAt DateTime @updatedAt
-
+    owner user @relation("Owner", fields: [useremail], references: [email])
+    updatedAt DateTime? @updatedAt // Make updatedAt nullable by adding `?`
+    
     @@unique(fields: [address])
 }
+
 
