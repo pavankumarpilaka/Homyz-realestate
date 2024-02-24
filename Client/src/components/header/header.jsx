@@ -20,6 +20,8 @@ const Header = () => {
   const handleaddproperty=()=>{
     if(validateLogin()){
       setModalOpened(true);
+    }else{
+      {loginWithRedirect};
     }
   }
   const [modalOpened,setModalOpened]=useState(false);
