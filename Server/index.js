@@ -18,7 +18,7 @@ app.use(cors({
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));
-
+console.log("hello world");
 app.listen(PORT,()=>{
     console.log("server is running succesfully...");
 })
